@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../tailwindcssreset.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <div>
+            <label >
+                google 搜尋
+                <input type="text" name="q">
+            </label>
+        </div>
+        <div>
+            <label for="google-search">控制 Google 搜尋框</label>
+            <input type="text" name="q" id="google-search">
+        </div>
+        <label>
+            輸入
+            <textarea name="" id="" style="background-color: #faa;">4656</textarea>
+        </label>
+        <input type="text" placeholder="google 搜尋" name="q">
+        <input type="text" placeholder="輸入文字" readonly>
+        <input type="number" placeholder="number">
+        <input type="email"  placeholder="email" required>
+        <input type="password" placeholder="password" required autocomplete="off">
+        <input type="tel" placeholder="tel" required>
+        <input type="url" placeholder="url">
+        <input type="date" name="" id="" min="2025-03-11" max="2025-03-14">
+        <input type="datetime-local" name="" id="">
+        <input type="month" name="" id="">
+        <input type="time" name="" id="">
+        <input type="week" name="" id="">
+        <input type="button" value="input 的按鈕" class="">
+        <input type="color" name="" id="">
+        <input type="file" name="" id="">
+
+        <div style="margin: 50px; background-color: #aaf">
+            午餐(單選)
+            <label>
+                <input type="radio" name="lunch" value="港式燒臘" id="">
+                港式燒臘
+            </label>
+            <label>
+                <input type="radio" name="lunch" value="雞肉飯" id="" checked>
+                雞肉飯
+            </label>
+            <label>
+                <input type="radio" name="lunch" value="日式料理" id="">
+                日式料理
+            </label>
+            <label>
+                <input type="radio" name="lunch" value="滷肉飯" id="">
+                滷肉飯
+            </label>
+            <label>
+                <input type="radio" name="lunch" value="牛肉麵" id="">
+                牛肉麵
+            </label>
+        </div>
+        <div style="margin: 50px; background-color: #aaf">
+            <fieldset>
+                <legend>午餐(複選)</legend>
+                <label>
+                    <input type="checkbox" name="lunchhhh" value="港式燒臘" id="">
+                    港式燒臘
+                </label>
+                <label>
+                    <input type="checkbox" name="lunchhhh" value="雞肉飯" id="" checked>
+                    雞肉飯
+                </label>
+                <label>
+                    <input type="checkbox" name="lunchhhh" value="日式料理" id="">
+                    日式料理
+                </label>
+                <label>
+                    <input type="checkbox" name="lunchhhh" value="滷肉飯" id="" checked>
+                    滷肉飯
+                </label>
+                <label>
+                    <input type="checkbox" name="lunchhhh" value="牛肉麵" id="">
+                    牛肉麵
+                </label>
+            </fieldset>
+        </div>
+
+        <div>
+            <select name="" id="" multiple required>
+                <option value="" disabled >請選擇</option>
+                <optgroup label="123">
+                    <option value="紅">紅</option>
+                    <option value="橙">橙</option>
+                    <option value="黃">黃</option>
+                </optgroup>
+                <optgroup label="123">
+                    <option value="綠">綠</option>
+                    <option value="藍">藍</option>
+                    <option value="靛">靛</option>
+                    <option value="紫">紫</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <progress max="100" value="70">70%</progress>
+
+        <!-- input image=submit -->
+        <input type="image" src="" alt="">
+        <input type="range" name="" id="" value="20" step="10">
+        <input type="search" name="" id="">
+        <input type="submit" value="input 的送出按鈕">
+        <input type="reset" value="input 的清空">
+        <input type="hidden" name="">
+        <!-- button 預設為submit -->
+        <button type="submit">送出按鈕</button>
+        <button type="button">只是按鈕</button>
+        <button type="reset">清空</button>
+        <button>
+            button 
+            <img src="" alt="">
+        </button>
+
+        
+
+    </form>
+</body>
+</html>

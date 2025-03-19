@@ -1,0 +1,88 @@
+.job-title,.company{
+    color: #1654b9;
+}
+.title{
+    color: rgb(88, 40, 179);
+}
+.btn{
+    color: #fff;
+    background-color: #13ab67;
+    padding: 14px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+.card{
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    width: 440px;
+}
+.pay{
+    color: #FF7800;
+}
+br{
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 50%;
+}
+/* HTML: <div class="star"></div> */
+.star {
+    display: inline-block;
+    width: 25px;  
+    aspect-ratio: 1;
+    background: #F8CA00;
+    /* clip-path: polygon(50% 0,
+      calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+      calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+     );  */
+    /* or more simple */
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+    
+  }
+
+.greentxt{
+  color: #13AB7B;
+}
+.darkgreentxt{
+  color: #749688;
+}
+
+table{
+  border: 1px solid #199499;
+  margin-left: 10px;
+  /* border-collapse: collapse; */
+}
+tr{
+  border: 1px solid blue;
+  text-align: center;
+  }
+td{
+  border: 1px solid orange;
+  padding: 2px;
+  text-align: center;
+  }
+th{
+    border: 1px solid blue;
+}
+/* .extable th,td{
+    width: 80px;
+} */
+.tableA{
+    background-color: aqua;
+}
+.tableB{
+    background-color: #F8CA00;
+}
+/* tr:nth-child(1){
+    background-color: blueviolet;
+} */
+ .practice0310 th{
+    background-color: lightblue;
+    border: 1px solid #999;
+ }
