@@ -423,7 +423,9 @@
 
 // arr=[1,2,3,4,5]
 // const newArr = arr.map((el) =>{
+
 // });
+// console.log(newArr);
 // ==>  newArr = [undefined,undefined,undefined,undefined,undefined]
 
 
@@ -486,7 +488,7 @@
 
 
 
-const arr=[1,2,3,4,5,6,7,8,9,10];
+// const arr=[1,2,3,4,5,6,7,8,9,10];
 // const newArr=[];
 // arr.forEach((el)=>{
 //         newArr.push(el*2);
@@ -523,7 +525,5 @@ const arr=[1,2,3,4,5,6,7,8,9,10];
 // .filter(lessThan10)
 // .reduce(sum);
 // console.log(sumOfArr);
-
-
 
 

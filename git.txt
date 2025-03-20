@@ -1,0 +1,7 @@
+
+git cherry-pick C1 C2 C3
+git commit --amend
+git rebase -i C1
+git checkout -b ABC
+git branch -f 
+git tag v0 C1
