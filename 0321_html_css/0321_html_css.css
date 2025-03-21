@@ -1,0 +1,79 @@
+/* section{
+    width: 600px;
+} */
+
+.item{
+    background-color: #ffa;
+    padding: 20px 0;
+    width: 50%;
+    margin: auto;
+}
+.title{
+    width: 50%;
+    background-color: #aaf;
+    font-size: 24px;
+    /*  多少em ==> 父層大小的多少倍   */
+    /*  2em ==> 16px * 2 = 32px (預設大小為16px) */
+    /*  多少rem ==> 根元素(html)大小的多少倍 */
+    /*  ex ==> 小寫x的高度 */
+}
+.bg-pink{
+    background-color: #faa;
+    width: 50vw;
+    /* vmax  ==>  寬高較大的%   */
+    /* vmin  ==>  寬高較小的%   */
+}
+
+.card{
+    background-color: #ffa;
+    width: 300px;
+    margin: 100px auto;
+    border-width: 10px;
+    border-style: solid dotted double dashed;
+    border-color: #aaf #faa purple blue;
+}
+.card-title{
+    font-size: 30px;
+}
+
+.cardwh{
+    background-color: #ffa;
+    width: 50%;
+    min-width: 100px;
+    max-width: 300px;
+    height: 50vh;
+    margin: 100px auto;
+    overflow:hidden;
+}
+
+/* inline 屬性不適用 width height */
+/* min>max>一般 */
+
+.outside{
+    font-size: 0;
+    /* inline 會有空白 */
+}
+.inside{
+    width: 100px;
+    height: 100px;
+    background-color: #fa0;
+    font-size: 16px;
+}
+
+.box{
+    width: 230px;
+    background-color: #faa;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #aaf;
+    float: left;
+}
+.product-list{
+    overflow: hidden;
+    background-color: #fa0;
+
+}
+
+.outbox{
+    border: 20px solid #faa;
+}
